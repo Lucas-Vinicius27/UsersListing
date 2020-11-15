@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_guest">
+
+    <fragment
+        android:id="@+id/nav_guest"
+        android:name="com.lucasvinicius.userslisting.view.AdministrationFragment"
+        android:label="@string/menu_guest"
+        tools:layout="@layout/fragment_administration">
+        <argument
+            android:name="LEVEL"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_board"
+        android:name="com.lucasvinicius.userslisting.view.AdministrationFragment"
+        android:label="@string/menu_board"
+        tools:layout="@layout/fragment_administration">
+        <argument
+            android:name="LEVEL"
+            android:defaultValue="2"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_administration"
+        android:name="com.lucasvinicius.userslisting.view.AdministrationFragment"
+        android:label="@string/menu_administration"
+        tools:layout="@layout/fragment_administration">
+        <argument
+            android:name="LEVEL"
+            android:defaultValue="3"
+            app:argType="integer" />
+    </fragment>
+</navigation>

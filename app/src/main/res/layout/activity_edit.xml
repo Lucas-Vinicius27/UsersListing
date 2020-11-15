@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register"
+    android:padding="16dp"
+    tools:context=".view.EditActivity">
+
+    <TextView
+        android:id="@+id/text_view_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_view_edit_user"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@id/edit_text_name_edit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text_name_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@id/edit_text_email_edit"
+        app:layout_constraintLeft_toLeftOf="@id/text_view_label"
+        app:layout_constraintRight_toRightOf="@id/text_view_label"
+        app:layout_constraintTop_toBottomOf="@id/text_view_label" />
+
+    <EditText
+        android:id="@+id/edit_text_email_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@id/edit_text_password_edit"
+        app:layout_constraintLeft_toLeftOf="@id/edit_text_name_edit"
+        app:layout_constraintRight_toRightOf="@id/edit_text_name_edit"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_name_edit" />
+
+    <EditText
+        android:id="@+id/edit_text_password_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@id/button_save"
+        app:layout_constraintLeft_toLeftOf="@id/edit_text_email_edit"
+        app:layout_constraintRight_toRightOf="@id/edit_text_email_edit"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_email_edit" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green_button"
+        android:text="@string/button_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/edit_text_password_edit"
+        app:layout_constraintRight_toRightOf="@id/edit_text_password_edit"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_password_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Users Listing</string>
+    <string name="edit_text_email">Email</string>
+    <string name="edit_text_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="radio_button_administrator">Administrator</string>
+    <string name="radio_button_director">Director</string>
+    <string name="radio_button_guest">Guest</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+    <string name="menu_guest">Guest</string>
+    <string name="menu_board">Board</string>
+    <string name="menu_administration">Administration</string>
+    <string name="edit_text_name">Name</string>
+    <string name="button_save">Save</string>
+    <string name="successfully_registered">Successfully registered!</string>
+    <string name="already_registered">User already registered!</string>
+    <string name="text_view_administrative_area">Administrative Area</string>
+    <string name="text_view_label1_users">User Listing</string>
+    <string name="text_view_edit_user">Edit User</string>
+    <string name="text_view_board_area">Board Area</string>
+    <string name="text_view_guest_area">Guest Area</string>
+    <string name="missing_data">Missing Data</string>
+    <string name="try_again">Try Again</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="cancel_authentication">Cancel Authentication</string>
+</resources>

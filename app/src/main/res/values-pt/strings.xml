@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Usuários</string>
+    <string name="edit_text_email">Email</string>
+    <string name="edit_text_password">Senha</string>
+    <string name="button_login">Entrar</string>
+    <string name="button_register">Cadastre-se</string>
+    <string name="radio_button_administrator">Administrador</string>
+    <string name="radio_button_director">Diretor</string>
+    <string name="edit_text_name">Nome</string>
+    <string name="radio_button_guest">Convidado</string>
+    <string name="menu_guest">Convidados</string>
+    <string name="menu_board">Diretoria</string>
+    <string name="menu_administration">Administração</string>
+    <string name="button_save">Salvar</string>
+    <string name="successfully_registered">Registrado com sucesso!</string>
+    <string name="already_registered">Usuário já cadastrado!</string>
+    <string name="text_view_administrative_area">Área Administrativa</string>
+    <string name="text_view_label1_users">Listagem de Usuários</string>
+    <string name="text_view_edit_user">Editar Usuário</string>
+    <string name="text_view_board_area">Área da Diretoria</string>
+    <string name="text_view_guest_area">Área de Convidados</string>
+    <string name="missing_data">Está faltando alguns dados</string>
+    <string name="try_again">Tente Novamente</string>
+    <string name="action_logout">Sair</string>
+    <string name="biometric_authentication">Autenticação por Biometria</string>
+    <string name="cancel_authentication">Cancelar a Autenticação</string>
+</resources>

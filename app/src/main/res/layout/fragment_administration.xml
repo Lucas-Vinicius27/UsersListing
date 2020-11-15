@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_form_news"
+    tools:context=".view.AdministrationFragment">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/unip_logo"
+        app:layout_constraintBottom_toTopOf="@id/text_view_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_administrative_area"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/text_view_label1"
+        app:layout_constraintLeft_toLeftOf="@id/image_logo"
+        app:layout_constraintRight_toRightOf="@id/image_logo"
+        app:layout_constraintTop_toBottomOf="@id/image_logo" />
+
+    <TextView
+        android:id="@+id/text_view_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_label1_users"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/recycler_view_users"
+        app:layout_constraintLeft_toLeftOf="@id/text_view_label"
+        app:layout_constraintRight_toRightOf="@id/text_view_label"
+        app:layout_constraintTop_toBottomOf="@id/text_view_label" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/text_view_label1"
+        app:layout_constraintRight_toRightOf="@id/text_view_label1"
+        app:layout_constraintTop_toBottomOf="@id/text_view_label1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
